@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T05:13:57.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WVwuYGTqFhLfpiQt3mQC" version="21.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-18T06:05:32.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="f5oMjlgQ852pW7sQW1Zj" version="21.1.7" type="github" pages="2">
   <diagram name="main" id="odc719tHQT71LVsh4h66">
     <mxGraphModel dx="1187" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h__2FS312G6_Hfj47WM7" name="filterDuplicateEvents">
-    <mxGraphModel dx="1187" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2014" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,11 +122,11 @@
         <mxCell id="EloGCIP4bISchfyABsFi-1" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;processElement&lt;/pre&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0B_UrC9FMJTI0KPQByOt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EloGCIP4bISchfyABsFi-2" target="0B_UrC9FMJTI0KPQByOt-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="EloGCIP4bISchfyABsFi-2" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;shouldProcessEventsWithCallId&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LWrtr2q0X7hAhnQPtARt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EloGCIP4bISchfyABsFi-6" target="0B_UrC9FMJTI0KPQByOt-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EloGCIP4bISchfyABsFi-6" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;shouldProcessEventsWithOutCallId&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="180" width="80" height="80" as="geometry" />
@@ -134,8 +134,35 @@
         <mxCell id="EloGCIP4bISchfyABsFi-8" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;shouldProcessContactEvent&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="180" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0B_UrC9FMJTI0KPQByOt-1" value="&lt;div&gt;contains&lt;/div&gt;&lt;div&gt;(identifierForRecord)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="300" width="100" height="60" as="geometry" />
+        <mxCell id="xrMejvbPcSyOK0eid48Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0B_UrC9FMJTI0KPQByOt-1" target="xrMejvbPcSyOK0eid48Z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0B_UrC9FMJTI0KPQByOt-1" value="&lt;div&gt;!contains&lt;/div&gt;&lt;div&gt;(identifierForRecord)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrMejvbPcSyOK0eid48Z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.02;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xrMejvbPcSyOK0eid48Z-2" target="0B_UrC9FMJTI0KPQByOt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xrMejvbPcSyOK0eid48Z-2" value="存在不处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xrMejvbPcSyOK0eid48Z-4" value="&lt;div&gt;equals&lt;/div&gt;&lt;div&gt;(AGENT_LOGOUT_STATUS)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrMejvbPcSyOK0eid48Z-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xrMejvbPcSyOK0eid48Z-6" target="xrMejvbPcSyOK0eid48Z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xrMejvbPcSyOK0eid48Z-6" value="logout clear&lt;br&gt;如果AGENT_EVENT&lt;br&gt;清理agent with call id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWrtr2q0X7hAhnQPtARt-2" value="&lt;div&gt;callst-callend&lt;/div&gt;&lt;div&gt;(乱序的丢失了)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWrtr2q0X7hAhnQPtARt-4" value="&lt;div&gt;!contains&lt;/div&gt;&lt;div&gt;(identifierForRecord)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWrtr2q0X7hAhnQPtARt-6" value="&lt;ul&gt;&lt;li&gt;agentCallIdEventsState&amp;nbsp;&lt;/li&gt;&lt;li&gt;agentStateKeysToRemoveStateValue&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;对于需要处理的注册clear通过event+time&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="355" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
